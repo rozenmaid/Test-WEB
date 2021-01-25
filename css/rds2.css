@@ -1,0 +1,52 @@
+/* from  homekit-theme.css */
+:root {
+	font-weight: 100;
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Safari */
+     -khtml-user-select: none;      /* Konqueror HTML */
+       -moz-user-select: none;      /* Firefox */
+        -ms-user-select: none;      /* Internet Explorer/Edge */
+            user-select: none;      /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+
+
+:root {
+    /* Basic HABpanel styles */  
+  --body-bg: #000000;
+  --body-color: #a4a4a4;
+  --primary-color: #bf26bf;
+  --box-bg: rgba(255, 255, 255, .01);
+  --header-bg: var(--body-bg);
+      /* General widget styles */
+  --widget-design-bg: #191716;
+  --widget-text-color: #a4a4a4;
+  --widget-border-radius: 5px;
+  --widget-box-shadow: 0 1px 8px 0 rgba(113, 133, 80, 0.8), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+   /* Icon colors */
+  --icon-color-filter: invert(34%) sepia(100%) hue-rotate(116deg) saturate(1000%);
+   /* Should be aligned with --primary-color */
+  --icon-color-off-filter: invert(60%) sepia(80%) hue-rotate(180deg);
+  --icon-backdrop-filter: invert(60%) sepia(100%) hue-rotate(165deg) opacity(15%);
+   /* Chart widget */
+  --chart-stroke: #456;
+  --chart-fill: #89a;
+  --chart-tooltip: #fff;
+   /* Color picker widget */
+  --colorpicker-border: #191716;
+  --colorpicker-stroke: #456;
+  --colorpicker-fill: #89a;
+   /* Image widget */
+  --image-border: #3ff308;
+   /* Switch widget */
+  --switch-off-color: #89a;
+      /* Slider widget */
+  --slider-pointer-color: #234;
+  --slider-pointer-bg-color: #def;
+  --slider-ceil-color: #def;
+  --slider-bubble-bg-color: #09120f;
+  --slider-bubble-border-color: #fff;
+  --slider-bubble-color: #a4a4a4;
+  
+}
